@@ -10,10 +10,7 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 136%;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-family: "Montserrat";
   color: #000000;
   margin-left: 15px;
 }
@@ -301,7 +298,7 @@ body {
   width: 277px;
   height: 200px;
   margin-left: 15%;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 .final__text {
   width: 277px;
@@ -346,6 +343,7 @@ body {
   border-radius: 10px;
   width: 301px;
   height: 451px;
+  margin-left: 14%;
 }
 .final__email {
   margin-top: 40px;
@@ -355,6 +353,12 @@ body {
   font-size: 14px;
   line-height: 128%;
   color: #000000;
+}
+.discr__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 15%;
 }
 .final__social {
   margin-top: 40px;
@@ -525,7 +529,7 @@ body {
     width: 170px;
     height: 279px;
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 10%;
   }
   .stepan__img {
     width: 220px;
@@ -595,5 +599,170 @@ body {
   .block__3__text {
     font-size: 13px;
     width: 205px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .header {
+    margin-left: 0px;
+  }
+  .title {
+    margin-left: 0;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+  }
+  .link {
+    font-size: 15px;
+  }
+  .menu {
+    margin-left: 47px;
+  }
+  .location__img {
+    margin-bottom: 5px;
+    width: 23px;
+    height: 20px;
+  }
+  .location__title {
+    font-size: 15px;
+    margin-left: 8px;
+  }
+  .location {
+    margin-left: 90px;
+  }
+  .main__title {
+    font-size: 35px;
+    width: 295px;
+  }
+  .paragraph {
+    width: 263px;
+  }
+  .button__link {
+    margin-top: 40px;
+    font-size: 15px;
+  }
+  .main__img {
+    width: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .img1 {
+    width: 183px;
+    height: 136px;
+    margin-top: 90px;
+  }
+  .img2 {
+    width: 182px;
+    height: 117px;
+  }
+  .fields {
+    margin-left: 1%;
+  }
+  .fields__title {
+    font-size: 25px;
+  }
+  .fields__link {
+    width: 220px;
+    height: 85px;
+  }
+  .block__1__item {
+    font-size: 20px;
+    width: 195px;
+    margin: 0;
+  }
+  .line1 {
+    width: 139px;
+    height: 4px;
+    margin: 0;
+  }
+  .block__1__text {
+    width: 136px;
+    font-size: 15px;
+    margin: 0;
+  }
+  .block__2 {
+    margin-left: 7%;
+  }
+  .line2 {
+    width: 186px;
+    height: 4px;
+    margin: 8px 0 0 0;
+  }
+  .block__2__item {
+    margin: 0;
+    font-size: 20px;
+    width: 246px;
+  }
+  .block__2__text {
+    width: 205px;
+    margin: 0;
+    font-size: 15px;
+  }
+  .block__3 {
+    margin-left: 1%;
+  }
+  .line3 {
+    width: 183px;
+    height: 4px;
+    margin: 8px 0 0 0;
+  }
+  .block__3__item {
+    font-size: 20px;
+    margin: 0;
+  }
+  .block__3__text {
+    font-size: 15px;
+    margin: 0;
+    width: 189px;
+  }
+  .final {
+    width: 100%;
+    height: 550px;
+    flex-direction: column;
+  }
+  .final__list {
+    display: flex;
+    flex-direction: row;
+  }
+  .discr__list {
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: start;
+  }
+  .final__email {
+    margin-top: 90px;
+    margin-left: 30%;
+  }
+  .final__social {
+    margin-top: 90px;
+  }
+  .final__img {
+    margin: 0;
+  }
+  .final__discr {
+    margin: 0;
+  }
+  .final__title {
+    font-size: 25px;
+    margin-top: 80px;
+  }
+  .stepan__img {
+    width: 220px;
+    height: 329px;
+  }
+  .final__discr {
+    margin-left: 15%;
+  }
+  .block__phone {
+    margin-left: 14%;;
+  }
+  .discr {
+    margin-top: 60px;
   }
 }
